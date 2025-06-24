@@ -33,7 +33,7 @@ if __name__ == "__main__":
         image_tensor = transform(image)
         image_tensor = image_tensor.unsqueeze(0)
 
-        model = load_model("../model/model_state_dict3.pth")
+        model = load_model("/model/model_state_dict3.pth")
         cam_extractor = SmoothGradCAMpp(model, target_layer=model.conv_block_3[4])
         
         pred = predict(model, image_tensor)
