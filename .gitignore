@@ -1,0 +1,12 @@
+.venv
+data.zip
+main.ipynb
+src/__pycache__
+src/test.py
+model/model1.pt
+model/test1.pt
+model/test3.pt
+model/model_state_cleaned.pth
+model/model_state1.pth
+model/
+data/
